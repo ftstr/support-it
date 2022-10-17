@@ -1,0 +1,57 @@
+body{
+    background-color: #24283B;
+}
+
+.container-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: #7AA2F7;
+    min-width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+}
+
+.container-channels{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-channels a{
+    font-family: 'Aubrey', regular;
+    font-size: 32px;
+    color: #ffffff;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.container-logo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 70px;
+    justify-content: center;
+}
+
+.container-logo img{
+    margin-top: 7px;
+}
+
+.channel, #exeter{
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.schedule{
+    display: flex;
+    justify-content: center;
+}
+
